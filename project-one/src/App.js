@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import NavBar from "./components/navbar/NavBar";
 import Footer from "./components/footer/Footer";
 import Container from "./components/container/Container";
+import Count from "./components/Count";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/empresa" element={<Empresa />} />
           <Route exact path="/contato" element={<Contato />} />
         </Routes>
+        <Count />
       </Container>
       <Footer> </Footer>
     </Router>
