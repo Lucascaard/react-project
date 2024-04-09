@@ -11,9 +11,9 @@ import NewProjects from "./components/pages/newProjects/NewProjects";
 function App() {
   return (
     <Router>
-      <NavBar></NavBar>
+      <NavBar />
       <Container customClass="min-height">
-        <Routes>  
+        <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/company" element={<Company />} />
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/newprojects" element={<NewProjects />} />
         </Routes>
       </Container>
-      <Footer></Footer>
+      <Footer />
     </Router>
   );
 }
