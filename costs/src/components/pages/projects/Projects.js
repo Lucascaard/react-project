@@ -1,3 +1,4 @@
+import styles from "./Projects.module.css";
 import { useLocation } from "react-router-dom";
 import Message from "../../layout/message/Message";
 
